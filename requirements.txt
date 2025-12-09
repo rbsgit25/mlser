@@ -8,3 +8,4 @@ scikit-learn
 requests
 reportlab
 python-multipart
+openpyxl
