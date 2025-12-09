@@ -1,0 +1,90 @@
+# --------------------------
+# Python cache / temp files
+# --------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pylint.d
+*.cache
+.cache/
+
+# --------------------------
+# Virtual environments
+# --------------------------
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# --------------------------
+# IDE settings
+# --------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --------------------------
+# Logs
+# --------------------------
+*.log
+
+# --------------------------
+# OS files
+# --------------------------
+.DS_Store
+Thumbs.db
+
+# --------------------------
+# Uploaded files (your API creates these)
+# --------------------------
+uploads/
+data/uploaded.csv
+data/*.csv
+tmp/
+temp/
+
+# --------------------------
+# History folder (generated reports)
+# --------------------------
+history/
+!history/.gitkeep   # keep folder empty if needed
+
+# --------------------------
+# Machine Learning model files
+# --------------------------
+*.joblib
+*.pkl
+pipeline.joblib
+ecom_model.joblib
+fare_predictor_svr_pipeline.joblib
+bulk_productivity_model.joblib
+
+# --------------------------
+# Generated output files
+# --------------------------
+*.xlsx
+*.pdf
+
+# --------------------------
+# ReportLab / openpyxl temp files
+# --------------------------
+*.xml
+~$*.xlsx
+
+# --------------------------
+# Environment variables
+# --------------------------
+*.env
+.env
+.env.*
+
+# --------------------------
+# Keep ONLY this data file
+# --------------------------
+# Your code needs data/car.csv — allow only that
+data/*
+!data/car.csv
